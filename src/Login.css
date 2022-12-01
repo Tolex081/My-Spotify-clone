@@ -1,0 +1,19 @@
+.logo {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.logo > img {
+  width: 50%;
+  place-items: center;
+}
+
+.logo > a {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #1db954;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+}
